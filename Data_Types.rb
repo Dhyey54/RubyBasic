@@ -50,3 +50,6 @@ puts symb
 # Kind of
 print 42.kind_of?(Integer)
 print 42.is_a?(Float)
+
+CONST = 50
+CONST = 60
