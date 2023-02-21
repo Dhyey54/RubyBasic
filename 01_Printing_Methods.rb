@@ -18,12 +18,11 @@ def numbers
   puts 123
 end
 
-rs = numbers
-print(rs.class)
-
 def number
   p 123
 end
-  
+
+res1 = numbers
+p res1.class
 res = number
 print(res.class)
