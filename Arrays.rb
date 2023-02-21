@@ -105,3 +105,7 @@ p c
 # p c.collect{|c| "!" + c.to_s}
 c.each{|c| print "!#{c}"}
 p c.delete_if {|c| c>4}
+
+numbers = [1, 2, 3, 4, 5].collect.with_index do |number, index|
+  p "number is #{number} and it's index is #{index}"
+end

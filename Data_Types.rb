@@ -1,3 +1,4 @@
+$global = "Global variable"
 a = 340
 b = 78.8
 c = 1_56_000
@@ -53,3 +54,9 @@ print 42.is_a?(Float)
 
 CONST = 50
 CONST = 60
+
+def print_global
+    puts $global
+end
+
+print_global
