@@ -17,8 +17,8 @@ my_proc.call()
 my_lambda = -> { return 1 }
 puts "Lambda result: #{my_lambda.call}"
 
-my_proc = Proc.new { return 1 }
-puts "Proc result: #{my_proc.call}"
+# my_proc = Proc.new { return 1 }
+# puts "Proc result: #{my_proc.call}"
 
 # proc in method
 def call_proc
@@ -28,6 +28,7 @@ def call_proc
   puts "After proc"
 end
 call_proc
+
 # lambda in method
 def call_lambda
     puts "Before lambda"
@@ -39,8 +40,10 @@ call_lambda
 
 def call_proc(my_proc)
     count = 500
+    # my_proc = Proc.new {puts count} # Here count -> 500
     my_proc.call
 end
+
 count = 1
-my_proc = Proc.new {puts count}
-puts call_proc(my_proc)
+my_proc = Proc.new {puts count} # Here count -> 1
+call_proc(my_proc)
