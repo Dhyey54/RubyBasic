@@ -1,3 +1,5 @@
+# Prac: Create an array from 1 to 10 and perform all methods on the array
+
 a = Array.new(10) {|i| i+1}
 
 # Fetching values

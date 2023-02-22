@@ -1,3 +1,5 @@
+# Prac: Practice various types of iterators available with the above arrays 
+
 a = Array.new(10) {|i| i+1}
 
 # Each will iterate over every element of the array
@@ -26,8 +28,12 @@ print "Combination Over\n"
 a.permutation(2) {|per| p per}
 print "Permutation Over"
 
+# Repeated Combination on array
+# In this it will also go for same elements like [0,0] [1,1] [2,2] 
 a.repeated_combination(2) {|comb| p comb}
 print "Repeated Combination Over\n"
 
+# Repeated Permutation on array
+# In this it will also go for same elements like [0,0] [1,1] [2,2] 
 a.repeated_permutation(2) {|per| p per}
 print "Repeated Permutation over"

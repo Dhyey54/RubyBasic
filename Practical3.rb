@@ -1,3 +1,5 @@
+# Prac: Create an array with stings containing colors and perform various available array methods on it
+
 colors = ["Black", "White", "Red", "Blue", "Yellow", "Pink", "Brown", "Grey"]
 
 # Fetching values

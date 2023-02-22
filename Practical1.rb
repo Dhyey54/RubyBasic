@@ -1,6 +1,6 @@
 # Prac: Create a Class named Car
 class Car
-    @@no_of_wheels = 4
+    No_of_wheels = 4
     FUEL = {
         cng: 1,
         petrol: 2,
@@ -29,7 +29,7 @@ class Car
 
     #Prac: Create a constant within the class named no of wheels, set value 4, and use it in a different method
     def tyre
-        puts "Price of painting tyres will be: #{@@no_of_wheels *100}"
+        puts "Price of painting tyres will be: #{No_of_wheels *100}"
     end
     
     #Prac: Create a method to take an argument for the color and print string: the color of the car is

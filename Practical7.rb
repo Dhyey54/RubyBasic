@@ -1,3 +1,5 @@
+# Prac: Create a method that uses proc/lambda
+
 def lambda_proc(type)
     # It will check for proc or lambda and run code accordingly
     if type == "proc"
