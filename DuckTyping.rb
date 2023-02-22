@@ -5,16 +5,16 @@ class Duck
     def swim
       puts 'Duck swim'
     end
-  end
-  class Goose
+end
+class Goose
     def quack 
       puts 'Goose quack'
     end
     def swim
       puts 'Goose swim'
     end
-  end 
-  class BirdActions
+end 
+class BirdActions
   attr_reader :birds
   def initialize
     @birds = []
@@ -34,7 +34,7 @@ class Duck
     end
   end
   
-  end
+end
   
   action = BirdActions.new()
   action.quack
