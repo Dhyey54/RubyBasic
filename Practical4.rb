@@ -10,6 +10,6 @@ print "#{time.strftime("%H:%M:%S  %Z")}\n"
 
 #Printing Date Time after 30 days
 month_date = DateTime.now + 30
-print "#{month_date}"
+print "#{month_date} \n"
 
 print "#{Date.tomorrow}"
