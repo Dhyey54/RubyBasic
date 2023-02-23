@@ -1,0 +1,18 @@
+class People
+	def initialize(name)
+		@name = name
+	end
+	def walking
+		puts "I am walking!"
+	end
+end
+
+People.allocate.walking
+
+klass = Class.new do
+  def self.allocate
+    raise "allocate should not be called"
+  end
+end
+
+print klass.allocate
