@@ -11,9 +11,9 @@ Practiced Ruby OOPs concept.
 -Encapsulation is defined as the wrapping up of data under a single unit.
 -Encapsulation is a protective shield that prevents the data from being accessed by the code outside this shield.
 
-*Data Hiding
-*Reusability
-*Testing code is easy
+* Data Hiding
+* Reusability
+* Testing code is easy
 
 ### Polymorphism
 
@@ -21,8 +21,8 @@ Practiced Ruby OOPs concept.
 -In polymorphism, we can obtain different results using the same function by passing different input objects.
 
 Polymorphism can be achieved through
-*Polymorphism using Inheritance
-*Polymorphism using Duck-Typing
+* Polymorphism using Inheritance
+* Polymorphism using Duck-Typing
 
 ### Inheritance
 
