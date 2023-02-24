@@ -29,7 +29,9 @@ module SampleModule
       puts "This is a static method"
     end
   end
-  
+
+  include self::ClassMethods
+
   def insta_method
   puts "This is an instance method"
   end
@@ -40,4 +42,5 @@ class SampleClass
 end
 
 sc = SampleClass.new
-p SampleClass.methods
+sc.method_static
+sc.insta_method
