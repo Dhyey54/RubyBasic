@@ -11,6 +11,8 @@ Practiced Ruby OOPs concept.
 - Encapsulation is defined as the wrapping up of data under a single unit.
 - Encapsulation is a protective shield that prevents the data from being accessed by the code outside this shield.
 
+Uses of Encapsulation
+
 * Data Hiding
 * Reusability
 * Testing code is easy
@@ -30,10 +32,16 @@ Polymorphism can be achieved through
 - Ruby supports single class inheritance and multi-level inheritance, it does not support multiple class inheritance but it can achieved through mixins.
 - Inheritance provides the concept of “reusability”.
 
+It has two type of classes
+* Sub Class
+* Super Class
+
 ### 4. Abstraction
 
 - The idea of representing significant details and hiding details of functionality is called data abstraction.
 - Abstraction is trying to minimize information so that the developer can concentrate on a few ideas at a time.
+
+Uses of Abstraction
 
 * It increases re-usability and prevents redundancy of code.
 * Helps increase the security of a system
